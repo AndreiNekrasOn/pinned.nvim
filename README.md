@@ -17,10 +17,11 @@ selected text to the internal buffer.
 
 Recommended keymaps:
 
-```lua vim.keymap.set("v", "<leader>rs", "<cmd>lua
-require('pinned').show()<cr>") vim.keymap.set("v", "<leader>ry", "<cmd>lua
-require('pinned').yank()<cr>") vim.keymap.set("n", "<leader>rs", "<cmd>lua
-require('pinned').show()<cr>") ```
+```lua
+vim.keymap.set("v", "<leader>rs", "<cmd>lua require('pinned').show()<cr>")
+vim.keymap.set("v", "<leader>ry", "<cmd>lua require('pinned').yank()<cr>")
+vim.keymap.set("n", "<leader>rs", "<cmd>lua require('pinned').show()<cr>")
+```
 
 
 
