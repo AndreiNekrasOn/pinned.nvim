@@ -1,5 +1,3 @@
-print("loaded pinned.nvim")
-
 local popup = require("plenary.popup")
 
 local M = {}
