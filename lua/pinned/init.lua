@@ -64,7 +64,7 @@ local create = function (bufnr)
         border=true,
     })
     vim.api.nvim_set_option_value("filetype", globals.filetype, { buf=bufnr })
-    vim.api.nvim_buf_set_text(bufnr, 0, 0, 0, 0, lines)
+    vim.api.nvim_buf_set_lines(bufnr, 0, #lines, false, lines)
     globals.win = win
 end
 
